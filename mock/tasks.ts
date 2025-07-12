@@ -1,5 +1,3 @@
-// mock/tasks.ts
-
 export const allTasks: Record<string, any[]> = {
   "1": [
     {

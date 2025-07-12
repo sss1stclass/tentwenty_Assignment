@@ -22,8 +22,8 @@ Mock Data: Internal API routes using mock files
 # Clone the repository
 Open a terminal and run:
 
-- git clone https://github.com/your-username/twentwenty-timesheet-app.git
-- cd twentwenty-timesheet-app
+- git clone https://github.com/sss1stclass/tentwenty_Assignment.git
+- cd ticktock
 
 - npm install
 

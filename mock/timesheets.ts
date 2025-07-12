@@ -1,4 +1,3 @@
-// mock/timesheets.ts
 import { TimesheetEntry } from "@/types/timesheet";
 
 export const timesheets: TimesheetEntry[] = [

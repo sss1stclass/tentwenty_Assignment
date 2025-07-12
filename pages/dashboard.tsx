@@ -3,14 +3,7 @@
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-
-interface Timesheet {
-  id: number;
-  week: number;
-  dateRange: string;
-  status: "COMPLETED" | "INCOMPLETE" | "MISSING";
-  actionLabel: "View" | "Update" | "Create";
-}
+import { Timesheet } from "@/types/timesheet";
 
 export default function Dashboard() {
   const { data: session, status } = useSession();

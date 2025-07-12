@@ -4,19 +4,8 @@
 
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-
-interface Task {
-  id: string;
-  name: string;
-  hours: number;
-  project: string;
-  date: string; 
-}
-
-interface WeekMeta {
-  id: number;
-  dateRange: string;
-}
+import { WeekMeta } from './../../types/timesheet';
+import { Task } from "./../../types/timesheet";
 
 export default function TimesheetDetail() {
   const router = useRouter();
@@ -59,7 +48,7 @@ export default function TimesheetDetail() {
     const label = date.toLocaleDateString("en-US", {
       month: "short",
       day: "numeric",
-    }); // e.g. Jan 21
+    });
     if (!acc[label]) acc[label] = [];
     acc[label].push(task);
     return acc;
