@@ -1,5 +1,6 @@
  TenTwenty Timesheet Management (ticktock) App
 A simple Timesheet Management SaaS-style application built for the TenTwenty
+Live Demo Link: tentwenty-assignment.vercel.app
 
 ## Tech Stack
 
