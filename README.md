@@ -1,4 +1,4 @@
-🕒 TenTwenty Timesheet Management App
+ TenTwenty Timesheet Management (ticktock) App
 A simple Timesheet Management SaaS-style application built for the TenTwenty
 
 ## Tech Stack
